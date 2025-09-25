@@ -1,0 +1,6 @@
+C:\Users\kosty\source\repos\AIS1\Model\bin\Debug\Model.dll
+C:\Users\kosty\source\repos\AIS1\Model\bin\Debug\Model.pdb
+C:\Users\kosty\source\repos\AIS1\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\kosty\source\repos\AIS1\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\kosty\source\repos\AIS1\Model\obj\Debug\Model.dll
+C:\Users\kosty\source\repos\AIS1\Model\obj\Debug\Model.pdb

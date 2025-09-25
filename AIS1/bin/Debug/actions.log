@@ -1,0 +1,4 @@
+﻿[2025-09-26 00:02:24] CREATE: Id=1, Toyota Camry, Plate=А123ВС77, Year=2020, Mileage=45000, PricePerHour=250
+[2025-09-26 00:02:24] CREATE: Id=2, Kia Rio, Plate=О777ОО77, Year=2022, Mileage=10000, PricePerHour=200
+[2025-09-26 00:02:24] CREATE: Id=3, Hyundai Solaris, Plate=В456ОР78, Year=2021, Mileage=30000, PricePerHour=220
+[2025-09-26 00:02:45] CREATE: Id=4, BMW X5, Plate=O111OO03, Year=2023, Mileage=0, PricePerHour=5200,00

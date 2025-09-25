@@ -1,0 +1,15 @@
+C:\Users\kosty\source\repos\AIS1\AIS1\bin\Debug\AIS1.exe.config
+C:\Users\kosty\source\repos\AIS1\AIS1\bin\Debug\AIS1.exe
+C:\Users\kosty\source\repos\AIS1\AIS1\bin\Debug\AIS1.pdb
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\WinForm.csproj.AssemblyReference.cache
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\AIS1.Properties.Resources.resources
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\WinForm.csproj.GenerateResource.cache
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\WinForm.csproj.CoreCompileInputs.cache
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\AIS1.exe
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\AIS1.pdb
+C:\Users\kosty\source\repos\AIS1\AIS1\bin\Debug\BussinessLogic.dll
+C:\Users\kosty\source\repos\AIS1\AIS1\bin\Debug\Model.dll
+C:\Users\kosty\source\repos\AIS1\AIS1\bin\Debug\BussinessLogic.pdb
+C:\Users\kosty\source\repos\AIS1\AIS1\bin\Debug\Model.pdb
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\AIS1.MainForm.resources
+C:\Users\kosty\source\repos\AIS1\AIS1\obj\Debug\WinForm.csproj.Up2Date
