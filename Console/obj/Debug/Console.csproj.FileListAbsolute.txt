@@ -1,0 +1,2 @@
+C:\Users\kosty\source\repos\AIS1\Console\obj\Debug\Console.csproj.AssemblyReference.cache
+C:\Users\kosty\source\repos\AIS1\Console\obj\Debug\Console.csproj.CoreCompileInputs.cache
