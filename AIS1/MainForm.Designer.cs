@@ -59,7 +59,6 @@ namespace AIS1
             this.dataGridViewCars.RowHeadersWidth = 51;
             this.dataGridViewCars.Size = new System.Drawing.Size(1097, 427);
             this.dataGridViewCars.TabIndex = 0;
-            this.dataGridViewCars.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewCars_CellFormatting);
             this.dataGridViewCars.SelectionChanged += new System.EventHandler(this.dataGridViewCars_SelectionChanged);
             // 
             // panelControls

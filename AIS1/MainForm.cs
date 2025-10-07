@@ -20,7 +20,6 @@ namespace AIS1
     {
         private readonly ICarService _carService;
 
-        // Вспомогательный класс для отображения данных
         private class CarDisplayItem
         {
             /// <summary>
@@ -264,35 +263,6 @@ namespace AIS1
         }
 
         /// <summary>
-        /// Форматирует ячейки со статусом: цвет и локализованный текст.
-        /// </summary>
-        private void dataGridViewCars_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-            if (dataGridViewCars.Columns[e.ColumnIndex].Name == "StatusText" && e.Value != null)
-            {
-                var statusText = e.Value.ToString();
-                switch (statusText)
-                {
-                    case "Доступен":
-                        e.CellStyle.BackColor = Color.LightGreen;
-                        e.CellStyle.ForeColor = Color.Black;
-                        e.Value = "Доступен";
-                        break;
-                    case "В аренде":
-                        e.CellStyle.BackColor = Color.LightCoral;
-                        e.CellStyle.ForeColor = Color.Black;
-                        e.Value = "В аренде";
-                        break;
-                    case "На тех. обслуживании":
-                        e.CellStyle.BackColor = Color.LightYellow;
-                        e.CellStyle.ForeColor = Color.Black;
-                        e.Value = "На тех. обслуживании";
-                        break;
-                }
-            }
-        }
-
-        /// <summary>
         /// Добавляет новый автомобиль через модальную форму.
         /// </summary>
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -342,13 +312,13 @@ namespace AIS1
                 }
 
                 using (var editForm = new CarEditForm(
-                    (string)currentValues[0],  // Марка
-                    (string)currentValues[1],  // Модель
-                    (string)currentValues[2],  // Номер
-                    (int)currentValues[3],     // Год
-                    (int)currentValues[4],     // Пробег
-                    (decimal)currentValues[5], // Цена
-                    (int)currentValues[6]      // Статус
+                    (string)currentValues[0],  // марка
+                    (string)currentValues[1],  // модель
+                    (string)currentValues[2],  // номер
+                    (int)currentValues[3],     // год
+                    (int)currentValues[4],     // пробег
+                    (decimal)currentValues[5], // цена
+                    (int)currentValues[6]      // статус
                 ))
                 {
                     if (editForm.ShowDialog() == DialogResult.OK)

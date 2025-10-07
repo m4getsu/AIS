@@ -47,8 +47,6 @@ namespace AIS1
                 Close();
                 return;
             }
-
-            // Используем reflection для доступа к свойствам
             var carType = carInfo.GetType();
             labelCarInfo.Text = (string)carType.GetProperty("DisplayText").GetValue(carInfo);
             labelPricePerHour.Text = $"{(decimal)carType.GetProperty("RentalPricePerHour").GetValue(carInfo):C}/час";

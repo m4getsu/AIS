@@ -181,7 +181,6 @@ namespace BussinessLogic
         public bool RentCar(int carId)
         {
             var carToRent = GetCar(carId);
-            // Проверяем, существует ли автомобиль и доступен ли он для аренды
             if (carToRent == null || carToRent.Status != CarStatus.Available)
                 return false;
 
